@@ -1,0 +1,17 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+[16,21,11,8,12,22] sayı dizisini tek bir eleman kalana kadar ikiye bölüyoruz.
+
+[16,21,11] | [8,12,22]
+
+[16] , [21,11] | [8] , [12,22]
+
+[16] , [21] , [11] | [8] , [12] , [22] tek eleman kaldıktan sonra sıralama yaparak birleştiriyoruz.
+
+[16,21] , [11] | [8,12] , [22]
+
+[11,16,21] | [8,12,22] bu iki sayı dizisini birleştiririz.
+
+[8,11,12,16,21,22] sayı dizisi oluşur.
+
+Big-O gösterimi = O(nlogn)
